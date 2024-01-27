@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1865c1eb686c98b4d8297e563ce69ad7, type: 3}
+  m_Name: A
+  m_EditorClassIdentifier: 
+  ID: 0
+  NOMBREDELSOSPECHOSO: SUJETO A
+  PROFESIONDELSOSPECHOSO: PAYASO
+  INFORMACIONDELSOSPECHOSO: XXXXXXXXX
+  CULPABLE: 0
+  SOSPECHOSOHUD: {fileID: 21300000, guid: 3b74b515f04f3f944a25e1dbb8ff1e17, type: 3}
+  FACE1: {fileID: 21300000, guid: 80b0979ae2866474a8ab52ecc8e38263, type: 3}
+  FACE2: {fileID: 21300000, guid: 80b0979ae2866474a8ab52ecc8e38263, type: 3}
+  FACE3: {fileID: 21300000, guid: 80b0979ae2866474a8ab52ecc8e38263, type: 3}
