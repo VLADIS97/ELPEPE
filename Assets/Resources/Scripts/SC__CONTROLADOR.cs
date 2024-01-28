@@ -996,6 +996,7 @@ public class SC__CONTROLADOR : MonoBehaviour
             }
             if (DIALOGO == 4)
             {
+                SOSPECHOSOX[2].CULPABLE = SOSPECHOSOX[2].CULPABLE + 30;
                 BOTONEXIT();
             }
         }
