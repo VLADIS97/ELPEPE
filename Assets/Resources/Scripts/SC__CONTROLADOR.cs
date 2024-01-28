@@ -115,14 +115,19 @@ public class SC__CONTROLADOR : MonoBehaviour
             if (DIALOGO == 1)
             {
                 TXPOLICIA.text = "";
-                TXSOSPECHOSO.text = "Animando la fiesta con bailes de fornite";
+                TXSOSPECHOSO.text = "Enserio tengo que repetirselo a usted tambien? bien como quiera de todos modos no tengo nada mejor que hacer";
             }
             if (DIALOGO == 2)
             {
-                TXPOLICIA.text = "...";
+                TXPOLICIA.text = "Solo responda la pregunta";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 3)
+            {
+                TXPOLICIA.text = "";
+                TXSOSPECHOSO.text = "Estaba entreteniendo a esos pequeños traga mocos, les regalaba juguetes de la mascota de la botarga y mis bailes de fornite";
+            }
+            if (DIALOGO == 4)
             {
                 BOTONEXIT();
             }
@@ -137,12 +142,12 @@ public class SC__CONTROLADOR : MonoBehaviour
             if (DIALOGO == 1)
             {
                 TXPOLICIA.text = "";
-                TXSOSPECHOSO.text = "Haciendo mi trabajo que mas";
+                TXSOSPECHOSO.text = "¿A usted tambien? ¿en serio? bien terminemos con esto";
             }
             if (DIALOGO == 2)
             {
-                TXPOLICIA.text = "...";
-                TXSOSPECHOSO.text = "";
+                TXPOLICIA.text = "";
+                TXSOSPECHOSO.text = "Solo hacia mi Show de cartas magica, como es costumbre";
             }
             if (DIALOGO == 3)
             {
@@ -182,14 +187,9 @@ public class SC__CONTROLADOR : MonoBehaviour
             if (DIALOGO == 1)
             {
                 TXPOLICIA.text = "";
-                TXSOSPECHOSO.text = "Pues estaba cerca del pastel, creo no es muy facil ver con esto";
+                TXSOSPECHOSO.text = "yo que se, apenas puedo ver y respirar, necesito usar mi inalador cada 15 segundos, honestamente no me pagan lo suficiente";
             }
             if (DIALOGO == 2)
-            {
-                TXPOLICIA.text = "...";
-                TXSOSPECHOSO.text = "";
-            }
-            if (DIALOGO == 3)
             {
                 BOTONEXIT();
             }
@@ -204,7 +204,7 @@ public class SC__CONTROLADOR : MonoBehaviour
             if (DIALOGO == 1)
             {
                 TXPOLICIA.text = "";
-                TXSOSPECHOSO.text = "Estaba a un costado de los dulces, animando a esos minions";
+                TXSOSPECHOSO.text = "Justo en el momento, yo ayude al pequeño a limpiarse con uno de mis pañuelos de uteleria ";
             }
             if (DIALOGO == 2)
             {
@@ -217,7 +217,6 @@ public class SC__CONTROLADOR : MonoBehaviour
             }
         }
     }
-
     public void BTPUSHGENERALC()
     {
         IDBOTON = -1;
@@ -253,20 +252,30 @@ public class SC__CONTROLADOR : MonoBehaviour
         {
             if (DIALOGO == 0)
             {
-                TXPOLICIA.text = "Que herramientas sueles usar?";
+                TXPOLICIA.text = "" + general;
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 1)
             {
                 TXPOLICIA.text = "";
-                TXSOSPECHOSO.text = "Apenas puedo respirar con esto, asi que nada supongo";
+                TXSOSPECHOSO.text = "¿Relacion? de que rayos me habla? se supone que debo conocerlo o algo? ";
             }
             if (DIALOGO == 2)
             {
-                TXPOLICIA.text = "...";
+                TXPOLICIA.text = "Solo responda la pregunta";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 3)
+            {
+                TXPOLICIA.text = "";
+                TXSOSPECHOSO.text = "Pfff, lo unico que se del niño es que su mama me ofrecio unicamente una botella de agua, habiendo una fuentes de sodas y solo me ofrecen eso, genial";
+            }
+            if (DIALOGO == 4)
+            {
+                TXPOLICIA.text = "";
+                TXSOSPECHOSO.text = "Creo que tuve que ser mejor Dr. Simi";
+            }
+            if (DIALOGO == 5)
             {
                 BOTONEXIT();
             }
@@ -281,12 +290,17 @@ public class SC__CONTROLADOR : MonoBehaviour
             if (DIALOGO == 1)
             {
                 TXPOLICIA.text = "";
-                TXSOSPECHOSO.text = "Mis herramientas magicas, todo me sirve";
+                TXSOSPECHOSO.text = "creo que ya conteste suficientes preguntas a todos ustedes ¿ya me puedo ir?";
             }
             if (DIALOGO == 2)
             {
-                TXPOLICIA.text = "...";
+                TXPOLICIA.text = "Solo responda";
                 TXSOSPECHOSO.text = "";
+            }
+            if (DIALOGO == 1)
+            {
+                TXPOLICIA.text = "";
+                TXSOSPECHOSO.text = "mire amigo ya repondi muchas veces esto, yo ayude al niño, yo no soy la culpable hasta le regale unas flores magicas";
             }
             if (DIALOGO == 3)
             {
@@ -308,17 +322,17 @@ public class SC__CONTROLADOR : MonoBehaviour
             if (DIALOGO == 1)
             {
                 TXPOLICIA.text = "";
-                TXSOSPECHOSO.text = "Si, es mi rociador de agua";
+                TXSOSPECHOSO.text = "Es una botella";
             }
             if (DIALOGO == 2)
             {
-                TXPOLICIA.text = "Bien entonces lo reconoces, entonces me puedes explicar ¿por que esta manchado de pastel? pudiste haber arrojado al pequeño Timmy a su pastel y al momento de huir dejaste caer tu objeto ¿no es asi? ¡¡¡PAYASO!!!";
+                TXPOLICIA.text = "Bien entonces lo reconoces, entonces me puedes explicar por que esta manchado de pastel? no tenias suficiente con agua ¿verdad? querias algo mas incluso serias capaz de arrojar al pequeño Timmy a su pastel para crear una distraccion ¿no?";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 3)
             {
                 TXPOLICIA.text = "";
-                TXSOSPECHOSO.text = "no, se equivoca yo no fui.";
+                TXSOSPECHOSO.text = "No es mio oficial, yo uso otra cosa para tirar agua";
             }
             if (DIALOGO == 4)
             {
@@ -335,15 +349,21 @@ public class SC__CONTROLADOR : MonoBehaviour
             if (DIALOGO == 1)
             {
                 TXPOLICIA.text = "";
-                TXSOSPECHOSO.text = "Crees que tengo las manos para siquiera tomar algo";
+                TXSOSPECHOSO.text = "Si, es la botella que me regalaron";
             }
             if (DIALOGO == 2)
             {
-                TXPOLICIA.text = "...";
+                TXPOLICIA.text = "Bien entonces lo reconoces, entonces me puedes explicar por que esta manchado de pastel? no tenias suficiente con agua ¿verdad? querias algo mas incluso serias capaz de arrojar al pequeño Timmy a su pastel para crear una distraccion ¿no?.";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 3)
             {
+                TXPOLICIA.text = "";
+                TXSOSPECHOSO.text = "Bien confieso, yo fui el que se robo el alchol de la casa de sus padres, pero yo no fui el que arrojo a Timmy.";
+            }
+            if (DIALOGO == 4)
+            {
+                SOSPECHOSOX[1].CULPABLE = SOSPECHOSOX[1].CULPABLE + 30;
                 BOTONEXIT();
             }
         }
@@ -357,14 +377,19 @@ public class SC__CONTROLADOR : MonoBehaviour
             if (DIALOGO == 1)
             {
                 TXPOLICIA.text = "";
-                TXSOSPECHOSO.text = "Eso no es mio, no se que tratas de probar";
+                TXSOSPECHOSO.text = "Una botella y cual es el punto?";
             }
             if (DIALOGO == 2)
             {
-                TXPOLICIA.text = "...";
+                TXPOLICIA.text = "Bien entonces lo reconoces, entonces me puedes explicar por que esta manchado de pastel? no tenias suficiente con agua ¿verdad? querias algo mas incluso serias capaz de arrojar al pequeño Timmy a su pastel para crear una distraccion ¿no?.";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 3)
+            {
+                TXPOLICIA.text = "";
+                TXSOSPECHOSO.text = "No y no. Eso lo dieron los tacaños de los jefes a la botarga, a mi me dieron solo comida los ruines";
+            }
+            if (DIALOGO == 4)
             {
                 BOTONEXIT();
             }
@@ -405,20 +430,25 @@ public class SC__CONTROLADOR : MonoBehaviour
         {
             if (DIALOGO == 0)
             {
-                TXPOLICIA.text = "Asi que dime que es lo que haces usualmente con esta botella";
+                TXPOLICIA.text = "¿Reconoces esto? lo ecnontramos cerca de la escena?";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 1)
             {
                 TXPOLICIA.text = "";
-                TXSOSPECHOSO.text = "Crees que tengo las manos para siquiera tomar algo";
+                TXSOSPECHOSO.text = "Un rociador, de verdad?";
             }
             if (DIALOGO == 2)
             {
-                TXPOLICIA.text = "...";
+                TXPOLICIA.text = "Bien entonces lo reconoces, entonces me puedes explicar ¿por que esta manchado de pastel? pudiste haber arrojado al pequeño Timmy a su pastel y al momento de huir dejaste caer tu objeto ¿no es asi? ¡¡¡BOTARGA!!!";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 3)
+            {
+                TXPOLICIA.text = "";
+                TXSOSPECHOSO.text = "Apenas puede tomar mi medicamento para el asma con esta cosa encima";
+            }
+            if (DIALOGO == 4)
             {
                 BOTONEXIT();
             }
@@ -427,20 +457,25 @@ public class SC__CONTROLADOR : MonoBehaviour
         {
             if (DIALOGO == 0)
             {
-                TXPOLICIA.text = "Asi que dime que es lo que haces usualmente con esta botella";
+                TXPOLICIA.text = "¿Reconoces esto? lo ecnontramos cerca de la escena?";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 1)
             {
                 TXPOLICIA.text = "";
-                TXSOSPECHOSO.text = "Eso no es mio, no se que tratas de probar";
+                TXSOSPECHOSO.text = "Un rociador, que quiere probar?";
             }
             if (DIALOGO == 2)
             {
-                TXPOLICIA.text = "...";
+                TXPOLICIA.text = "Bien entonces lo reconoces, entonces me puedes explicar ¿por que esta manchado de pastel? pudiste haber arrojado al pequeño Timmy a su pastel y al momento de huir dejaste caer tu objeto ¿no es asi? ¡¡¡MAGA!!!";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 3)
+            {
+                TXPOLICIA.text = "";
+                TXSOSPECHOSO.text = "Un mago con un rociador... Que puedo hacer con eso refrescar la esperanza de mi carrera fallida, eh";
+            }
+            if (DIALOGO == 4)
             {
                 BOTONEXIT();
             }
@@ -459,14 +494,19 @@ public class SC__CONTROLADOR : MonoBehaviour
             if (DIALOGO == 1)
             {
                 TXPOLICIA.text = "";
-                TXSOSPECHOSO.text = "La uso para mojar a las personas";
+                TXSOSPECHOSO.text = "Unas cartas";
             }
             if (DIALOGO == 2)
             {
-                TXPOLICIA.text = "un uso muy simple me imagino";
+                TXPOLICIA.text = "Bien entonces las reconoces, entonces me puedes explicar ¿por que estan manchadas de pastel? pudiste haber arrojado al pequeño Timmy a su pastel y al momento de disimular ayudarlo, dejaste caer tus cartas ¿no es asi? ";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 3)
+            {
+                TXPOLICIA.text = "";
+                TXSOSPECHOSO.text = "No, yo no uso cartas para mi show... creo que fue...";
+            }
+            if (DIALOGO == 4)
             {
                 BOTONEXIT();
             }
@@ -475,20 +515,25 @@ public class SC__CONTROLADOR : MonoBehaviour
         {
             if (DIALOGO == 0)
             {
-                TXPOLICIA.text = "Asi que dime que es lo que haces usualmente con esta botella";
+                TXPOLICIA.text = "¿Reconoces esto? lo ecnontramos cerca de la escena?";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 1)
             {
                 TXPOLICIA.text = "";
-                TXSOSPECHOSO.text = "Crees que tengo las manos para siquiera tomar algo";
+                TXSOSPECHOSO.text = "Unas cartas creo";
             }
             if (DIALOGO == 2)
             {
-                TXPOLICIA.text = "...";
+                TXPOLICIA.text = "Bien entonces las reconoces, entonces me puedes explicar ¿por que estan manchadas de pastel? pudiste haber arrojado al pequeño Timmy a su pastel y al momento de disimular ayudarlo, dejaste caer tus cartas ¿no es asi? ";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 3)
+            {
+                TXPOLICIA.text = "";
+                TXSOSPECHOSO.text = "Ni siquiera veo que carta sale, solo fingo sopresa cuando siento golpes de la espalda del payaso para bailar";
+            }
+            if (DIALOGO == 4)
             {
                 BOTONEXIT();
             }
@@ -497,27 +542,32 @@ public class SC__CONTROLADOR : MonoBehaviour
         {
             if (DIALOGO == 0)
             {
-                TXPOLICIA.text = "Asi que dime que es lo que haces usualmente con esta botella";
+                TXPOLICIA.text = "¿Reconoces esto? lo ecnontramos cerca de la escena?";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 1)
             {
                 TXPOLICIA.text = "";
-                TXSOSPECHOSO.text = "Eso no es mio, no se que tratas de probar";
+                TXSOSPECHOSO.text = "Si, son las cartas que uso";
             }
             if (DIALOGO == 2)
             {
-                TXPOLICIA.text = "...";
+                TXPOLICIA.text = "Bien entonces las reconoces, entonces me puedes explicar ¿por que estan manchadas de pastel? pudiste haber arrojado al pequeño Timmy a su pastel y al momento de disimular ayudarlo, dejaste caer tus cartas ¿no es asi? ";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 3)
             {
+                TXPOLICIA.text = "";
+                TXSOSPECHOSO.text = "¿Que, no de que habla?";
+            }
+            if (DIALOGO == 4)
+            {
+                SOSPECHOSOX[2].CULPABLE = SOSPECHOSOX[2].CULPABLE + 30;
                 BOTONEXIT();
             }
         }
 
     }
-
     public void BTPUSH4()//peluche
     {
         IDBOTON = 3;
@@ -525,20 +575,25 @@ public class SC__CONTROLADOR : MonoBehaviour
         {
             if (DIALOGO == 0)
             {
-                TXPOLICIA.text = "Asi que dime que es lo que haces usualmente con esta botella";
+                TXPOLICIA.text = "¿Reconoces esto? lo ecnontramos cerca de la escena?";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 1)
             {
                 TXPOLICIA.text = "";
-                TXSOSPECHOSO.text = "La uso para mojar a las personas";
+                TXSOSPECHOSO.text = "Es el peluche de la empresa";
             }
             if (DIALOGO == 2)
             {
-                TXPOLICIA.text = "un uso muy simple me imagino";
+                TXPOLICIA.text = "Bien entonces lo reconoces, entonces me puedes explicar ¿por que esta manchado de pastel? pudiste haber arrojado al pequeño Timmy a su pastel y al momento de huir dejaste caer tu objeto ¿no es asi? ¡¡¡PAYASO!!!";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 3)
+            {
+                TXPOLICIA.text = "";
+                TXSOSPECHOSO.text = "No... aunque he pensado en otras cosas";
+            }
+            if (DIALOGO == 4)
             {
                 BOTONEXIT();
             }
@@ -547,21 +602,27 @@ public class SC__CONTROLADOR : MonoBehaviour
         {
             if (DIALOGO == 0)
             {
-                TXPOLICIA.text = "Asi que dime que es lo que haces usualmente con esta botella";
+                TXPOLICIA.text = "¿Reconoces esto? lo ecnontramos cerca de la escena?";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 1)
             {
                 TXPOLICIA.text = "";
-                TXSOSPECHOSO.text = "Crees que tengo las manos para siquiera tomar algo";
+                TXSOSPECHOSO.text = "Si, es el juguete que ragalo";
             }
             if (DIALOGO == 2)
             {
-                TXPOLICIA.text = "...";
+                TXPOLICIA.text = "Bien entonces lo reconoces, entonces me puedes explicar ¿por que esta manchado de pastel? pudiste haber arrojado al pequeño Timmy a su pastel y al momento de huir dejaste caer tu objeto ¿no es asi? ¡¡¡BOTARGA!!!";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 3)
             {
+                TXPOLICIA.text = "";
+                TXSOSPECHOSO.text = "De verdad cree que podria con estos brazos?";
+            }
+            if (DIALOGO == 4)
+            {
+                SOSPECHOSOX[1].CULPABLE = SOSPECHOSOX[1].CULPABLE + 30;
                 BOTONEXIT();
             }
         }
@@ -569,26 +630,30 @@ public class SC__CONTROLADOR : MonoBehaviour
         {
             if (DIALOGO == 0)
             {
-                TXPOLICIA.text = "Asi que dime que es lo que haces usualmente con esta botella";
+                TXPOLICIA.text = "¿Reconoces esto? lo ecnontramos cerca de la escena?";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 1)
             {
                 TXPOLICIA.text = "";
-                TXSOSPECHOSO.text = "Eso no es mio, no se que tratas de probar";
+                TXSOSPECHOSO.text = "Los juguetes que regalamos, ajam";
             }
             if (DIALOGO == 2)
             {
-                TXPOLICIA.text = "...";
+                TXPOLICIA.text = "Bien entonces lo reconoces, entonces me puedes explicar ¿por que esta manchado de pastel? pudiste haber arrojado al pequeño Timmy a su pastel y al momento de huir dejaste caer tu objeto ¿no es asi? ¡¡¡MAGA!!!";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 3)
+            {
+                TXPOLICIA.text = "";
+                TXSOSPECHOSO.text = "Y un botarga gigante que se parece a este peluche, no te parece que el es sospechoso";
+            }
+            if (DIALOGO == 4)
             {
                 BOTONEXIT();
             }
         }
     }
-
     public void BTPUSH5()//flores
     {
         IDBOTON = 4;
@@ -596,20 +661,25 @@ public class SC__CONTROLADOR : MonoBehaviour
         {
             if (DIALOGO == 0)
             {
-                TXPOLICIA.text = "Asi que dime que es lo que haces usualmente con esta botella";
+                TXPOLICIA.text = "¿Reconoces esto? lo ecnontramos cerca de la escena?";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 1)
             {
                 TXPOLICIA.text = "";
-                TXSOSPECHOSO.text = "La uso para mojar a las personas";
+                TXSOSPECHOSO.text = "Unas flores";
             }
             if (DIALOGO == 2)
             {
-                TXPOLICIA.text = "un uso muy simple me imagino";
+                TXPOLICIA.text = "Bien entonces lo reconoces, entonces me puedes explicar por que esta manchado de pastel? se supone que Timmy ya estaba limpio, entonces las flores ya estaban manchadas de antes ¿verdad? querias arrojar al niño a su pastel por que te daba envidia, su pastel no es asi?";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 3)
+            {
+                TXPOLICIA.text = "";
+                TXSOSPECHOSO.text = "Creo que se las regalaron a la maga, pero a mi tambien me gustaria recibir flores";
+            }
+            if (DIALOGO == 4)
             {
                 BOTONEXIT();
             }
@@ -618,20 +688,25 @@ public class SC__CONTROLADOR : MonoBehaviour
         {
             if (DIALOGO == 0)
             {
-                TXPOLICIA.text = "Asi que dime que es lo que haces usualmente con esta botella";
+                TXPOLICIA.text = "¿Reconoces esto? lo ecnontramos cerca de la escena?";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 1)
             {
                 TXPOLICIA.text = "";
-                TXSOSPECHOSO.text = "Crees que tengo las manos para siquiera tomar algo";
+                TXSOSPECHOSO.text = "Mmm flores";
             }
             if (DIALOGO == 2)
             {
-                TXPOLICIA.text = "...";
+                TXPOLICIA.text = "Bien entonces lo reconoces, entonces me puedes explicar por que esta manchado de pastel? se supone que Timmy ya estaba limpio, entonces las flores ya estaban manchadas de antes ¿verdad? querias arrojar al niño a su pastel por que te daba envidia, su pastel no es asi?";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 3)
+            {
+                TXPOLICIA.text = "";
+                TXSOSPECHOSO.text = "No es mio, y creo que es de la maga cuando fue rapido por algo";
+            }
+            if (DIALOGO == 4)
             {
                 BOTONEXIT();
             }
@@ -640,21 +715,27 @@ public class SC__CONTROLADOR : MonoBehaviour
         {
             if (DIALOGO == 0)
             {
-                TXPOLICIA.text = "Asi que dime que es lo que haces usualmente con esta botella";
+                TXPOLICIA.text = "¿Reconoces esto? lo ecnontramos cerca de la escena?";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 1)
             {
                 TXPOLICIA.text = "";
-                TXSOSPECHOSO.text = "Eso no es mio, no se que tratas de probar";
+                TXSOSPECHOSO.text = "Si, son mis flores que le regale al niño";
             }
             if (DIALOGO == 2)
             {
-                TXPOLICIA.text = "...";
+                TXPOLICIA.text = "Bien entonces lo reconoces, entonces me puedes explicar por que esta manchado de pastel? se supone que Timmy ya estaba limpio, entonces las flores ya estaban manchadas de antes ¿verdad? querias arrojar al niño a su pastel por que te daba envidia, su pastel no es asi?";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 3)
             {
+                TXPOLICIA.text = "";
+                TXSOSPECHOSO.text = "Bien confieso, me las regalo un admirador pero ya las habia dejado en la mesa cuando todo eso paso alguien mas la tomo";
+            }
+            if (DIALOGO == 4)
+            {
+                SOSPECHOSOX[2].CULPABLE = SOSPECHOSOX[2].CULPABLE + 30;
                 BOTONEXIT();
             }
         }
@@ -667,20 +748,25 @@ public class SC__CONTROLADOR : MonoBehaviour
         {
             if (DIALOGO == 0)
             {
-                TXPOLICIA.text = "Asi que dime que es lo que haces usualmente con esta botella";
+                TXPOLICIA.text = "¿Reconoces esto? lo ecnontramos cerca de la escena?";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 1)
             {
                 TXPOLICIA.text = "";
-                TXSOSPECHOSO.text = "La uso para mojar a las personas";
+                TXSOSPECHOSO.text = "Un respirador de asma?";
             }
             if (DIALOGO == 2)
             {
-                TXPOLICIA.text = "un uso muy simple me imagino";
+                TXPOLICIA.text = "Bien entonces lo reconoces, entonces me puedes explicar ¿por que esta manchado de pastel? pudiste haber finjido tu enfermadad para luego seguir con tu ataque o ¿me equivoco?";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 3)
+            {
+                TXPOLICIA.text = "";
+                TXSOSPECHOSO.text = "No de hecho me preocupa que lo hayan perdido... probecito el dueño";
+            }
+            if (DIALOGO == 4)
             {
                 BOTONEXIT();
             }
@@ -689,21 +775,27 @@ public class SC__CONTROLADOR : MonoBehaviour
         {
             if (DIALOGO == 0)
             {
-                TXPOLICIA.text = "Asi que dime que es lo que haces usualmente con esta botella";
+                TXPOLICIA.text = "¿Reconoces esto? lo ecnontramos cerca de la escena?";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 1)
             {
                 TXPOLICIA.text = "";
-                TXSOSPECHOSO.text = "Crees que tengo las manos para siquiera tomar algo";
+                TXSOSPECHOSO.text = "Si, es de hecho lo necesito, me lo puede devolver?";
             }
             if (DIALOGO == 2)
             {
-                TXPOLICIA.text = "...";
+                TXPOLICIA.text = "Bien entonces lo reconoces, entonces me puedes explicar ¿por que esta manchado de pastel? pudiste haber finjido tu enfermadad para luego seguir con tu ataque o ¿me equivoco?";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 3)
             {
+                TXPOLICIA.text = "";
+                TXSOSPECHOSO.text = "porfavor, devuelvamelo, empieza a hacer calor aqui.";
+            }
+            if (DIALOGO == 4)
+            {
+                SOSPECHOSOX[1].CULPABLE = SOSPECHOSOX[1].CULPABLE + 30;
                 BOTONEXIT();
             }
         }
@@ -711,20 +803,25 @@ public class SC__CONTROLADOR : MonoBehaviour
         {
             if (DIALOGO == 0)
             {
-                TXPOLICIA.text = "Asi que dime que es lo que haces usualmente con esta botella";
+                TXPOLICIA.text = "¿Reconoces esto? lo ecnontramos cerca de la escena?";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 1)
             {
                 TXPOLICIA.text = "";
-                TXSOSPECHOSO.text = "Eso no es mio, no se que tratas de probar";
+                TXSOSPECHOSO.text = "Es para el asma, si";
             }
             if (DIALOGO == 2)
             {
-                TXPOLICIA.text = "...";
+                TXPOLICIA.text = "Bien entonces lo reconoces, entonces me puedes explicar ¿por que esta manchado de pastel? pudiste haber finjido tu enfermadad para luego seguir con tu ataque o ¿me equivoco?";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 3)
+            {
+                TXPOLICIA.text = "";
+                TXSOSPECHOSO.text = "No es mio, pero creo que es del payaso, esa cara de enfermedad no me ha dado confianza";
+            }
+            if (DIALOGO == 4)
             {
                 BOTONEXIT();
             }
@@ -772,14 +869,19 @@ public class SC__CONTROLADOR : MonoBehaviour
             if (DIALOGO == 1)
             {
                 TXPOLICIA.text = "";
-                TXSOSPECHOSO.text = "Crees que tengo las manos para siquiera tomar algo";
+                TXSOSPECHOSO.text = "Un palo grande";
             }
             if (DIALOGO == 2)
             {
-                TXPOLICIA.text = "...";
+                TXPOLICIA.text = "Bien entonces lo reconoces, entonces me puedes explicar ¿por que esta manchado de pastel? pudiste haber roto la piña para luego seguir con una mas de tus payasadas o ¿me equivoco? ";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 3)
+            {
+                TXPOLICIA.text = "";
+                TXSOSPECHOSO.text = "Dificilmente podria agarrarlo pero no es mala idea para un futuro...";
+            }
+            if (DIALOGO == 4)
             {
                 BOTONEXIT();
             }
@@ -788,20 +890,25 @@ public class SC__CONTROLADOR : MonoBehaviour
         {
             if (DIALOGO == 0)
             {
-                TXPOLICIA.text = "Asi que dime que es lo que haces usualmente con esta botella";
+                TXPOLICIA.text = "¿Reconoces esto? lo ecnontramos cerca de la escena?";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 1)
             {
                 TXPOLICIA.text = "";
-                TXSOSPECHOSO.text = "Eso no es mio, no se que tratas de probar";
+                TXSOSPECHOSO.text = "Un palo de piñata";
             }
             if (DIALOGO == 2)
             {
-                TXPOLICIA.text = "...";
+                TXPOLICIA.text = "Bien entonces lo reconoces, entonces me puedes explicar ¿por que esta manchado de pastel? pudiste haber roto la piña para luego seguir con una mas de tus payasadas o ¿me equivoco? ";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 3)
+            {
+                TXPOLICIA.text = "";
+                TXSOSPECHOSO.text = "Se que eso es del payaso, lo vi cuando se lo dio a los niños";
+            }
+            if (DIALOGO == 4)
             {
                 BOTONEXIT();
             }
@@ -815,20 +922,25 @@ public class SC__CONTROLADOR : MonoBehaviour
         {
             if (DIALOGO == 0)
             {
-                TXPOLICIA.text = "Asi que dime que es lo que haces usualmente con esta botella";
+                TXPOLICIA.text = "¿Reconoces esto? lo ecnontramos cerca de la escena?";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 1)
             {
                 TXPOLICIA.text = "";
-                TXSOSPECHOSO.text = "La uso para mojar a las personas";
+                TXSOSPECHOSO.text = "Un panuelo sucio";
             }
             if (DIALOGO == 2)
             {
-                TXPOLICIA.text = "un uso muy simple me imagino";
+                TXPOLICIA.text = "Bien entonces lo reconoces, entonces me puedes explicar por que esta manchado de pastel? se supone que Timmy ya estaba limpio, entonces las flores ya estaban manchadas de antes ¿verdad? querias arrojar al niño a su pastel por que te daba envidia, su pastel no es asi?";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 3)
+            {
+                TXPOLICIA.text = "";
+                TXSOSPECHOSO.text = "No es mio pero si no lo quiere me lo puede dar?";
+            }
+            if (DIALOGO == 4)
             {
                 BOTONEXIT();
             }
@@ -837,20 +949,25 @@ public class SC__CONTROLADOR : MonoBehaviour
         {
             if (DIALOGO == 0)
             {
-                TXPOLICIA.text = "Asi que dime que es lo que haces usualmente con esta botella";
+                TXPOLICIA.text = "¿Reconoces esto? lo ecnontramos cerca de la escena?";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 1)
             {
                 TXPOLICIA.text = "";
-                TXSOSPECHOSO.text = "Crees que tengo las manos para siquiera tomar algo";
+                TXSOSPECHOSO.text = "Un panuelo?";
             }
             if (DIALOGO == 2)
             {
-                TXPOLICIA.text = "...";
+                TXPOLICIA.text = "Bien entonces lo reconoces, entonces me puedes explicar por que esta manchado de pastel? se supone que Timmy ya estaba limpio, entonces las flores ya estaban manchadas de antes ¿verdad? querias arrojar al niño a su pastel por que te daba envidia, su pastel no es asi?";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 3)
+            {
+                TXPOLICIA.text = "";
+                TXSOSPECHOSO.text = "Sabes que pasa si ensuncio esta bortaga... esto vale mas que mi vida, literalmente";
+            }
+            if (DIALOGO == 4)
             {
                 BOTONEXIT();
             }
@@ -859,20 +976,25 @@ public class SC__CONTROLADOR : MonoBehaviour
         {
             if (DIALOGO == 0)
             {
-                TXPOLICIA.text = "Asi que dime que es lo que haces usualmente con esta botella";
+                TXPOLICIA.text = "¿Reconoces esto? lo ecnontramos cerca de la escena?";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 1)
             {
                 TXPOLICIA.text = "";
-                TXSOSPECHOSO.text = "Eso no es mio, no se que tratas de probar";
+                TXSOSPECHOSO.text = "Si, es el pañuelo que use para limpiar al niño";
             }
             if (DIALOGO == 2)
             {
-                TXPOLICIA.text = "...";
+                TXPOLICIA.text = "Bien entonces lo reconoces, entonces me puedes explicar por que esta manchado de pastel? se supone que Timmy ya estaba limpio, entonces las flores ya estaban manchadas de antes ¿verdad? querias arrojar al niño a su pastel por que te daba envidia, su pastel no es asi?";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 3)
+            {
+                TXPOLICIA.text = "";
+                TXSOSPECHOSO.text = "Bien confieso, yo limpie al niño, Al ver al nino asi, me recordo a mis cumplaños y al momento de ver al mocoso, no pude no sentir lastima por el.";
+            }
+            if (DIALOGO == 4)
             {
                 BOTONEXIT();
             }
@@ -902,7 +1024,7 @@ public class SC__CONTROLADOR : MonoBehaviour
             if (DIALOGO == 3)
             {
                 TXPOLICIA.text = "";
-                TXSOSPECHOSO.text = "Esta bien confieso, yo soy el que se rroba los desechables de las fiestas para revenderlos :C, pero yo no fui el que arrojo al niño lo juro.";
+                TXSOSPECHOSO.text = "Esta bien confieso, yo soy el que se roba los desechables de las fiestas para revenderlos :C, pero yo no fui el que arrojo al niño lo juro.";
             }
             if (DIALOGO == 4)
             {
@@ -914,20 +1036,25 @@ public class SC__CONTROLADOR : MonoBehaviour
         {
             if (DIALOGO == 0)
             {
-                TXPOLICIA.text = "Asi que dime que es lo que haces usualmente con esta botella";
+                TXPOLICIA.text = "¿Reconoces esto? lo ecnontramos cerca de la escena?";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 1)
             {
                 TXPOLICIA.text = "";
-                TXSOSPECHOSO.text = "Crees que tengo las manos para siquiera tomar algo";
+                TXSOSPECHOSO.text = "Un pollo";
             }
             if (DIALOGO == 2)
             {
-                TXPOLICIA.text = "...";
+                TXPOLICIA.text = "Bien entonces lo reconoces, entonces me puedes explicar por que esta manchado de pastel? no tenias suficiente con hacer reir a todos con pocho el pollo gracioso tambien querias arrojado al pequeño Timmy a su pastel.";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 3)
+            {
+                TXPOLICIA.text = "";
+                TXSOSPECHOSO.text = "Tengo mis peluches para que necesito mas, pero creo que eso es del payaso o de la maga?";
+            }
+            if (DIALOGO == 4)
             {
                 BOTONEXIT();
             }
@@ -936,20 +1063,25 @@ public class SC__CONTROLADOR : MonoBehaviour
         {
             if (DIALOGO == 0)
             {
-                TXPOLICIA.text = "Asi que dime que es lo que haces usualmente con esta botella";
+                TXPOLICIA.text = "¿Reconoces esto? lo ecnontramos cerca de la escena?";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 1)
             {
                 TXPOLICIA.text = "";
-                TXSOSPECHOSO.text = "Eso no es mio, no se que tratas de probar";
+                TXSOSPECHOSO.text = "Un pollo raro";
             }
             if (DIALOGO == 2)
             {
-                TXPOLICIA.text = "...";
+                TXPOLICIA.text = "Bien entonces lo reconoces, entonces me puedes explicar por que esta manchado de pastel? no tenias suficiente con hacer reir a todos con pocho el pollo gracioso tambien querias arrojado al pequeño Timmy a su pastel.";
                 TXSOSPECHOSO.text = "";
             }
             if (DIALOGO == 3)
+            {
+                TXPOLICIA.text = "";
+                TXSOSPECHOSO.text = "Yo nunca usaria algo asi, tengo mis herramientas para que necesito mas";
+            }
+            if (DIALOGO == 4)
             {
                 BOTONEXIT();
             }
