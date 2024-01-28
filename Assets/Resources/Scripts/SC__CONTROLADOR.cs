@@ -63,7 +63,7 @@ public class SC__CONTROLADOR : MonoBehaviour
             FACE2.SetActive(true);
             FACE3.SetActive(false);
         }
-        if (SOSPECHOSOX[ID].CULPABLE >89)
+        if (SOSPECHOSOX[ID].CULPABLE > 900)
         {
             CHAR.enabled = false;
             FACE1.SetActive(false);
