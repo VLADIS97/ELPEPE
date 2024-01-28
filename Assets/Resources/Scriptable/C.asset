@@ -18,6 +18,8 @@ MonoBehaviour:
   INFORMACIONDELSOSPECHOSO: XXXXXXXXXXXXXXXXXXX
   CULPABLE: 0
   SOSPECHOSOHUD: {fileID: 21300000, guid: ac58d369876b08948ad3004c40dcc07e, type: 3}
-  FACE1: {fileID: 21300000, guid: 191ff9f11c247ce4cb0026373baadd2e, type: 3}
-  FACE2: {fileID: 21300000, guid: 191ff9f11c247ce4cb0026373baadd2e, type: 3}
-  FACE3: {fileID: 21300000, guid: 191ff9f11c247ce4cb0026373baadd2e, type: 3}
+  SOSPECHOSOHOJA: {fileID: 21300000, guid: 795bb793e719e874dae294a9c3b03316, type: 3}
+  CHARNEUTRAL: {fileID: 21300000, guid: 191ff9f11c247ce4cb0026373baadd2e, type: 3}
+  FACE1: {fileID: 21300000, guid: ede2a6442b7591a478c922463f30c78b, type: 3}
+  FACE2: {fileID: 21300000, guid: fc6fe122f5b195643a5e362ddfee4110, type: 3}
+  FACE3: {fileID: 21300000, guid: e38b39723659e98408ff10325f052f2f, type: 3}

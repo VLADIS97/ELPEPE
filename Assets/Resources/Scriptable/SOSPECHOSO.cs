@@ -11,6 +11,8 @@ public class SOSPECHOSO : ScriptableObject
     public string INFORMACIONDELSOSPECHOSO;
     public int CULPABLE;
     public Sprite SOSPECHOSOHUD;
+    public Sprite SOSPECHOSOHOJA;
+    public Sprite CHARNEUTRAL;
     public Sprite FACE1;
     public Sprite FACE2;
     public Sprite FACE3;
